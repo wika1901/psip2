@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script> 
+        function showHour() { 
+            var date = new Date(); 
+            var hour = date.getHours(); 
+            alert("Текущий час: " + hour); 
+            } 
+            </script>
+    </head>
+    <body>
+        <button onclick="showHour()">Показать час</button>
+        <script> 
+        let name = "Виктория"; 
+        let surname = "Антонюк"; 
+        let n = 1; 
+        for (let i = 0; i < n + 5; i++) { 
+            document.write(surname + " " + name + "<br>"); 
+            } 
+        </script> 
+        <script>
+            // Создаем массив из 8 целых элементов
+            let arr = [3, -5, 7, -2, 9, -4, 6, -8];
+            document.write("Исходный массив: " + arr);
+        
+            // Находим произведение четных отрицательных элементов массива
+            let product = 1;
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] < 0 && arr[i] % 2 === 0) {
+                    product *= arr[i];
+                }
+            }
+            document.write("Произведение четных отрицательных элементов: " + product);
+        
+            // Удаляем первый элемент в массиве
+            arr.shift();
+            document.write("Измененный массив: " + arr);
+        </script>
+        <h1>Результаты расчета формулы:</h1>
+        <script src="calc.js"></script>
+        <script src="z5.js"></script>
+    </body>
+</html> 

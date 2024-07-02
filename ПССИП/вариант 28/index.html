@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+<title>Моя страница</title> 
+<script> 
+document.addEventListener('DOMContentLoaded', function() { 
+    document.getElementById('btn-url').addEventListener('click', function() { 
+        alert(window.location.href); 
+    });
+    document.getElementById('myLink').addEventListener('click', function() {
+      this.remove();
+    });
+    }); 
+    </script>
+</head> 
+<body> 
+<h1>Антонюк Виктория Павловна</h1> 
+<h3><a id="myLink" href="hhttps://ru.pinterest.com">Pinterest</a></h3> 
+<img src="img/фото.jpg" alt="Любое изображение" width="300" height="330">
+<button id="btn-url">Посмотреть URL</button> 
+<script src="script.js"></script>
+</body> 
+<script> document.addEventListener('DOMContentLoaded', function() { 
+    document.getElementById('btn-url').addEventListener('click', function() { 
+        alert(window.location.href); 
+        }); 
+        document.getElementById('myLink').addEventListener('click', function() { 
+            this.remove(); 
+            }); 
+            }); 
+</script>
+</html>

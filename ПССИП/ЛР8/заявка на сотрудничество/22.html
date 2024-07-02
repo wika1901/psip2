@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Заявка на сотрудничество</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h1>Заявка на сотрудничество</h1>
+    <form>
+        <p>Как к вам обращаться?</p>
+        <input type="text" id="name" placeholder="Ваше имя">
+        <p>Телефон*</p>
+        <input type="tel" id="phone" placeholder="+7 (911) 800-80-80">
+        <div class="radio-group">
+            <div>
+                <p class="radio-label">Сфера деятельности:</p>
+                <input type="radio" id="proizvoditel" name="sphere" value="Производитель">
+                <label for="proizvoditel">Производитель</label><br>
+                <input type="radio" id="postavshik" name="sphere" value="Поставщик">
+                <label for="postavshik">Поставщик</label><br>
+                <input type="radio" id="distributery_postavshika" name="sphere" value="Дистрибьютер поставщика">
+                <label for="distributery_postavshika">Дистрибьютер поставщика</label>
+            </div>
+            <div>
+                <p class="radio-label">Удобное время для связи:</p>
+                <input type="radio" id="10-12" name="time" value="С 10:00-12:00">
+                <label for="10-12">С 10:00-12:00</label><br>
+                <input type="radio" id="12-14" name="time" value="С 12:00-14:00">
+                <label for="12-14">С 12:00-14:00</label><br>
+                <input type="radio" id="14-16" name="time" value="С 14:00-16:00">
+                <label for="14-16">С 14:00-16:00</label><br>
+                <input type="radio" id="16-18" name="time" value="С 16:00-18:00">
+                <label for="16-18">С 16:00-18:00</label>
+            </div>
+        </div>
+        <input type="submit" value="Отправить">
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

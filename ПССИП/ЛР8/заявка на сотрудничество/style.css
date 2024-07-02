@@ -1,0 +1,44 @@
+ body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    .container {
+        width: 50%;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+    input[type="text"], input[type="tel"] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .radio-group {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+        font-weight: bold;
+        text-align: left;
+    }
+    .radio-label {
+        font-weight: bold;
+    }
+    p{
+        text-align: left;
+    }

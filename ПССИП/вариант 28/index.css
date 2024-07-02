@@ -1,0 +1,15 @@
+#myLink { 
+    color: black; 
+    font-size: 20px; 
+    font-family: verdana; 
+    border: 1px solid black; 
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+} 
+#myLink:hover { 
+    color: blue; 
+    font-weight: bold; 
+    font-size: 25px; 
+    border: 1px solid rgb(103, 248, 103); 
+}
